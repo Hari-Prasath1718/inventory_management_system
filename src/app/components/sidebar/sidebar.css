@@ -1,0 +1,43 @@
+.fullsidebar-box {
+  height: 100vh;          
+}
+.side-link {
+  flex: 1;                
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.side-link::-webkit-scrollbar {
+  display: none;  
+}
+.sidebar-headings{
+  border-radius: 8px;
+  transition:all 0.5s ease;
+  cursor: pointer;
+}
+.sidebar-headings:hover{
+  background-color: var(--color-accent);
+}
+.sidebar-links{
+  color: var(--color-text-muted);
+}
+.sidebar-headings:hover .sidebar-links{
+  color:var(--color-text-primary);
+}
+.sidebar-headingsn img{
+  color: var(--color-text-muted);
+}
+.sidebar-headingsn:hover{
+  color:var(--color-text-primary)!important;
+}
+.sidebar-headings:hover .hvronetwofour-icon path {
+  stroke: var(--color-text-primary);
+}
+.sidebar-headings:hover .anotherhvr-icons {
+  fill: var(--color-text-primary);
+}
+/* .logout-box:hover{
+  background-color:orangered;
+  border-radius: 8px;
+  
+} */

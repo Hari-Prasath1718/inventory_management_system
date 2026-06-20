@@ -1,0 +1,15 @@
+<div class="container-fluid layoutbg vh-100 ">
+    <div class="row h-100">
+        <div class=" col-md-3 col-lg-3 col-xl-3 col-xxl-3 px-0 sidebar h-100">
+            <app-sidebar class=""></app-sidebar>
+        </div>
+        <div class="col-md-9 col-lg-9 col-xl-9 col-xxl-9 h-100 d-flex flex-column ">
+            <app-header></app-header>
+            <div class=" my-2 px-3 flex-grow-1 content-scroll">
+                    <div class="allcomponents">
+                    <router-outlet ></router-outlet>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

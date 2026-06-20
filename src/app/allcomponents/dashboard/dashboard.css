@@ -1,0 +1,8 @@
+.stk-overviewbox{
+    background-color: var(--color-white);
+    border-radius: 18px;
+}
+.table-para{
+    color: var(--color-text-muted);
+    font-weight: 500;
+}
