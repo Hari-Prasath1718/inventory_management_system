@@ -16,6 +16,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { Sale } from './allcomponents/sale/sale';
 import { CategoryModels } from './allcomponents/category-models/category-models';
+import { Settings } from './allcomponents/settings/settings';
+import { Reports } from './allcomponents/reports/reports';
 @NgModule({
   declarations: [
     App,
@@ -27,7 +29,9 @@ import { CategoryModels } from './allcomponents/category-models/category-models'
     Products,
     Stock,
     Sale,
-    CategoryModels
+    CategoryModels,
+    Settings,
+    Reports
   ],
   imports: [
     BrowserModule,
