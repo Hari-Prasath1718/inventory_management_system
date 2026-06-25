@@ -1,0 +1,162 @@
+<div class="reports-container">
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h2>📊 Reports</h2>
+        <p>View and analyze your inventory and sales reports</p>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="row g-4">
+
+        <div class="col-lg-3 col-md-6">
+            <div class="report-card">
+                <h6>Total Products</h6>
+                <h3>120</h3>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="report-card">
+                <h6>Units Sold</h6>
+                <h3>850</h3>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="report-card">
+                <h6>Total Revenue</h6>
+                <h3>₹1,50,000</h3>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="report-card">
+                <h6>Low Stock Items</h6>
+                <h3>5</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Filters -->
+    <div class="filter-card mt-4">
+
+        <div class="row g-3 align-items-end">
+
+            <div class="col-md-3">
+                <label class="form-label">From Date</label>
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label">To Date</label>
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label">Report Type</label>
+                <select class="form-select">
+                    <option>Sales Report</option>
+                    <option>Stock Report</option>
+                    <option>Revenue Report</option>
+                    <option>Low Stock Report</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <button class="btn-generate w-100">
+                    Generate Report
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Report Table -->
+    <div class="table-card mt-4">
+
+        <div class="table-header">
+
+            <h5>Sales Report</h5>
+
+            <div class="export-buttons">
+
+                <button class="btn-export pdf">
+                    Export PDF
+                </button>
+
+                <button class="btn-export excel">
+                    Export Excel
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="table-responsive">
+
+            <table class="table align-middle">
+
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Bill No</th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>24-06-2026</td>
+                        <td>#B001</td>
+                        <td>Silk Saree</td>
+                        <td>2</td>
+                        <td>₹5,000</td>
+                    </tr>
+
+                    <tr>
+                        <td>24-06-2026</td>
+                        <td>#B002</td>
+                        <td>Formal Shirt</td>
+                        <td>3</td>
+                        <td>₹2,100</td>
+                    </tr>
+
+                    <tr>
+                        <td>24-06-2026</td>
+                        <td>#B003</td>
+                        <td>Jeans</td>
+                        <td>1</td>
+                        <td>₹1,200</td>
+                    </tr>
+
+                    <tr>
+                        <td>24-06-2026</td>
+                        <td>#B004</td>
+                        <td>Kurti</td>
+                        <td>2</td>
+                        <td>₹1,800</td>
+                    </tr>
+
+                    <tr>
+                        <td>24-06-2026</td>
+                        <td>#B005</td>
+                        <td>Cotton Saree</td>
+                        <td>1</td>
+                        <td>₹1,500</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

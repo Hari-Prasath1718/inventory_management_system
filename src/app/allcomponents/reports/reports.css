@@ -1,0 +1,129 @@
+.reports-container {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+.page-header {
+    margin-bottom: 24px;
+}
+
+.page-header h2 {
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.page-header p {
+    color: #64748b;
+    margin-bottom: 0;
+}
+
+/* Summary Cards */
+
+.report-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 0 4px 18px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.report-card:hover {
+    transform: translateY(-3px);
+}
+
+.report-card h6 {
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+.report-card h3 {
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0;
+}
+
+/* Filter Card */
+
+.filter-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 0 4px 18px rgba(0,0,0,.08);
+}
+
+.form-control,
+.form-select {
+    height: 45px;
+    border-radius: 10px;
+}
+
+.btn-generate {
+    height: 45px;
+    border: none;
+    background: #3b82f6;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn-generate:hover {
+    background: #2563eb;
+}
+
+/* Table Section */
+
+.table-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 0 4px 18px rgba(0,0,0,.08);
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-header h5 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.export-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-export {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.pdf {
+    background: #ef4444;
+    color: white;
+}
+
+.excel {
+    background: #22c55e;
+    color: white;
+}
+
+.table thead th {
+    background: #f8fafc;
+    color: #334155;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+.table tbody tr:hover {
+    background: #f8fafc;
+}
